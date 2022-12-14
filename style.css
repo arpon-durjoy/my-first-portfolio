@@ -15,6 +15,8 @@ section{
     width: 50%;
     padding-left: 5%;
     padding-top: 3%;
+    padding-right: 4%;
+    float: left;
 }
 .half-width img{
     width: 70%;
@@ -33,4 +35,15 @@ p{
 .top{
 background-image: url(img/top-banner.png);
 background-repeat: no-repeat;
+}
+#width{
+    width: 80%;
+}
+.mid{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+div{
+    display: block;
 }
