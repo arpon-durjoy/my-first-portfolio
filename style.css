@@ -5,11 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .org{
     color: orange;
 }
-section{
+.flex{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -46,4 +50,35 @@ background-repeat: no-repeat;
 }
 div{
     display: block;
+}
+.experience{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 10px;
+}
+.ex-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgb(99, 99, 99);
+}
+#slice{
+    border-left: 7px solid;
+    border-image: linear-gradient(#ff0062,rgb(255, 204, 0));
+    border-radius: 10px;
+    border-image-slice: 1;
+}
+#slice-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 128, 0),rgb(255, 247, 0));
+    border-radius: 10px;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
